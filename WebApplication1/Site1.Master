@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--bootstrap css--%>
+    <link href="bootstrap/cs/bootstrap.min.css" rel="stylesheet" />
+     <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+     <%--custom css--%>
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+     <%--jquery--%>
+    <script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+     <%--pooper js--%>
+    <script src="bootstrap/js/popper.min.js"></script>
+     <%--bootstrap js--%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <%--datatabel js--%>
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/home/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/home/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/Annotation%202019-12-25%20131010w.png" />
+                   <%-- Compatable Tool--%>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarsupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+             
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.aspx">Home </a>
+      </li>
+    <li class="nav-item active">
+        <ul class="nav nav-tabs">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Database</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="compatibleTool.aspx">Compatible Tools</a>
+      <a class="dropdown-item" href="compatibleToolByDesign.aspx">Compatible Tools By Design</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">All Available Schema</a>
+    </div>
+  </li>
+</ul>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="home.aspx">About </a>
+      </li>
+    </ul>
+   <ul class="navbar-nav">
+       <%--<li class="nav-item active">--%>
+           <a class="nav-link" href="adminlogin.aspx">Admin </a>
+
+    
+   </ul>
+  </div>
+</nav>
+           
+              <div style="background-color: rgba(27, 62, 147, 1); width: 100%; height: 42px; color: white; padding: 7px; margin-bottom: 7px;">
+                <h4>LIS - YieldStar Compatibility Check</h4>
+            </div>
+
+  
+        </div>
+        <!-- Main Content PlaceHolder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+         <!-- Main Content PlaceHolder-->
+        <footer>
+            <div id="footer1" class="container-fluid">
+            <p style="color:whitesmoke"> &copy ALL Right Reversed. <a class="footerlinks" href="#" target="_blank"> ASML</a></p>
+                </div>
+        </footer>
+
+        
+    </form>
+</body>
+</html>

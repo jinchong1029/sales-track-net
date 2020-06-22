@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebApplication1.admin">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAACAAAAAAAAAgAAAAQQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>adminlogin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.database">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>database.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.home">
+    <Position X="9.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IoAAABAAEAAAIAAAKgAgAAgAAAIAAAEAAAAAQAIAAAI=</HashCode>
+      <FileName>home.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.Site1">
+    <Position X="2.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAAAAIAAAAAAIAAAA=</HashCode>
+      <FileName>Site1.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.admin2">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>admin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.CompatibilityEntities">
+    <Position X="9.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAAAAAAABADASAAUIAAAAAEUAAAEAEAAAQ=</HashCode>
+      <FileName>DB\DB.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Admin">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.ASMLSchema">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>DB\ASMLSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Customer">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>DB\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Device">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAACAAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>DB\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.FAB">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAAgAAAAAIAAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\FAB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Feature">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Layer">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAAAQAAAAAAAAAQAAAEAAAAAA=</HashCode>
+      <FileName>DB\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Node">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgEAAAAAAAAQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Product">
+    <Position X="0.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAgAAAAAADAAAAAIAAAAAAQAAAAAAAEAA=</HashCode>
+      <FileName>DB\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.ProductCategory">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DB\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.ProductFeature">
+    <Position X="4" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAgAEAQAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>DB\ProductFeature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.ProductLayer">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAQAA=</HashCode>
+      <FileName>DB\ProductLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.ProductSchema">
+    <Position X="7.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAgAAAAAAAQAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\ProductSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.sysdiagram">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\sysdiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.Tasted">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAgAAAAAAAAAEAAAAAAAAAAAABAAAIAAA=</HashCode>
+      <FileName>DB\Tasted.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.DB.GenericRepository.GenericRepository&lt;T&gt;">
+    <Position X="4" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAAAAAAgQAAAAAAAAAAAAEAAQAAAAAAAAACIAA=</HashCode>
+      <FileName>DB\GenericRepository\GenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication1.ViewModels.vm">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\vm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

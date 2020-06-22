@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18f0ea6329974b4e803d674ec4bc2b42" Name="Diagram1">
+        <EntityTypeShape EntityType="CompatibilityModel.Admin" Width="1.5" PointX="7.75" PointY="1.375" />
+        <EntityTypeShape EntityType="CompatibilityModel.ASMLSchema" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="CompatibilityModel.Customer" Width="1.5" PointX="1.5" PointY="18" />
+        <EntityTypeShape EntityType="CompatibilityModel.Device" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.FAB" Width="1.5" PointX="1.5" PointY="14.625" />
+        <EntityTypeShape EntityType="CompatibilityModel.Feature" Width="1.5" PointX="3" PointY="21" />
+        <EntityTypeShape EntityType="CompatibilityModel.Layer" Width="1.5" PointX="3" PointY="8.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.Node" Width="1.5" PointX="1.5" PointY="11.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.Product" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="CompatibilityModel.ProductCategory" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="CompatibilityModel.ProductFeature" Width="1.5" PointX="5.25" PointY="7.5" />
+        <EntityTypeShape EntityType="CompatibilityModel.ProductLayer" Width="1.5" PointX="5.25" PointY="4.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.ProductSchema" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.SchemaVersion" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="CompatibilityModel.sysdiagram" Width="1.5" PointX="7.75" PointY="7.375" />
+        <EntityTypeShape EntityType="CompatibilityModel.Tasted" Width="1.5" PointX="9.75" PointY="1.375" />
+        <AssociationConnector Association="CompatibilityModel.FK_SchemaVersion_Schema" />
+        <AssociationConnector Association="CompatibilityModel.FK_FAB_Customer" />
+        <AssociationConnector Association="CompatibilityModel.FK_Device_Node" />
+        <AssociationConnector Association="CompatibilityModel.FK_Layer_Device" />
+        <AssociationConnector Association="CompatibilityModel.FK_Node_FAB" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductFeature_Feature" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductLayer_Layer" />
+        <AssociationConnector Association="CompatibilityModel.FK_Product_ProductCategories" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductFeature_Product" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductFeature_Product1" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductLayer_Product" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductSchema_Product" />
+        <AssociationConnector Association="CompatibilityModel.FK_ProductSchema_SchemaVersion" />
+        <EntityTypeShape EntityType="CompatibilityModel.TestedProduct" Width="1.5" PointX="5.25" PointY="11" />
+        <AssociationConnector Association="CompatibilityModel.FK_TestedProduct_Product" />
+        <AssociationConnector Association="CompatibilityModel.FK_TestedProduct_Product1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
